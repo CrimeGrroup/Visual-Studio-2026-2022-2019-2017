@@ -1,54 +1,51 @@
-# Visual Studio 2026
+# Visual Studio Download Links
 
-https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Stable&version=VS18
+A comprehensive collection of official download links for Visual Studio installers across multiple versions and editions.
 
-https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=enterprise&channel=Stable&version=VS18
+## 📁 Versions Available
 
-https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=professional&channel=Stable&version=VS18
+### Visual Studio 2026 (v18)
+| Edition | Download Link |
+|---------|---------------|
+| Community | [c2rsetup](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Stable&version=VS18) / [aka.ms](https://aka.ms/vs/18/Stable/vs_community.exe) |
+| Enterprise | [c2rsetup](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=enterprise&channel=Stable&version=VS18) / [aka.ms](https://aka.ms/vs/18/Stable/vs_enterprise.exe) |
+| Professional | [c2rsetup](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=professional&channel=Stable&version=VS18) / [aka.ms](https://aka.ms/vs/18/Stable/vs_professional.exe) |
 
-https://aka.ms/vs/18/Stable/vs_community.exe
+### Visual Studio 2022 (v17)
+| Edition | Download Link |
+|---------|---------------|
+| Community | [c2rsetup](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2022) / [aka.ms](https://aka.ms/vs/17/release/vs_community.exe) |
+| Enterprise | [c2rsetup](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=enterprise&channel=Release&version=VS2022) / [aka.ms](https://aka.ms/vs/17/release/vs_enterprise.exe) |
+| Professional | [c2rsetup](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=professional&channel=Release&version=VS2022) / [aka.ms](https://aka.ms/vs/17/release/vs_professional.exe) |
 
-https://aka.ms/vs/18/Stable/vs_enterprise.exe
+### Visual Studio 2019 (v16)
+| Edition | Download Link |
+|---------|---------------|
+| Community | [c2rsetup](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2019) / [aka.ms](https://aka.ms/vs/16/release/vs_community.exe) |
+| Enterprise | [c2rsetup](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=enterprise&channel=Release&version=VS2019) / [aka.ms](https://aka.ms/vs/16/release/vs_enterprise.exe) |
+| Professional | [c2rsetup](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=professional&channel=Release&version=VS2019) / [aka.ms](https://aka.ms/vs/16/release/vs_professional.exe) |
 
-https://aka.ms/vs/18/Stable/vs_professional.exe
+### Visual Studio 2017 (v15)
+> **Note:** The c2rsetup links for VS2017 are no longer functional. Only aka.ms links are available.
 
-# Visual Studio 2022
-https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2022
+| Edition | Download Link |
+|---------|---------------|
+| Web Express | [Download](https://aka.ms/vs/15/release/vs_WDExpress.exe) |
+| Community | [Download](https://aka.ms/vs/15/release/vs_community.exe) |
+| Enterprise | [Download](https://aka.ms/vs/15/release/vs_enterprise.exe) |
+| Professional | [Download](https://aka.ms/vs/15/release/vs_professional.exe) |
 
-https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=enterprise&channel=Release&version=VS2022
+---
 
-https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=professional&channel=Release&version=VS2022
+## Usage
 
-https://aka.ms/vs/17/release/vs_community.exe
+All links point to official Microsoft CDN servers. The installers are the web bootstrappers that will download the full Visual Studio installation package during setup.
 
-https://aka.ms/vs/17/release/vs_enterprise.exe
+### Direct Download
+Simply click any link to start downloading the respective Visual Studio bootstrapper.
 
-https://aka.ms/vs/17/release/vs_professional.exe
+### Command Line Installation
+You can use these links with tools like `curl` or `wget`:
 
-# Visual Studio 2019
-https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2019
-
-https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=enterprise&channel=Release&version=VS2019
-
-https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=professional&channel=Release&version=VS2019
-
-https://aka.ms/vs/16/release/vs_community.exe
-
-https://aka.ms/vs/16/release/vs_enterprise.exe
-
-https://aka.ms/vs/16/release/vs_professional.exe
-
-# Visual Studio 2017
-~~https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2017~~
-
-~~https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=enterprise&channel=Release&version=VS2017~~
-
-~~https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=professional&channel=Release&version=VS2017~~
-
-https://aka.ms/vs/15/release/vs_WDExpress.exe
-
-https://aka.ms/vs/15/release/vs_community.exe
-
-https://aka.ms/vs/15/release/vs_enterprise.exe
-
-https://aka.ms/vs/15/release/vs_professional.exe
+```bash
+curl -O https://aka.ms/vs/17/release/vs_community.exe
